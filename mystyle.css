@@ -1,0 +1,62 @@
+h3{
+    color: lavender;
+}
+
+p{
+    color: rgb(166, 209, 184);
+}
+/* #id 선택자 */
+#two{
+    color: lightskyblue
+}
+
+/* .class 선택자 */
+.orange{
+    color: orange;
+}
+
+p.center {
+    text-align: center;
+}
+
+p#size {
+    font-size: 50px;
+}
+
+li {
+    color: lemonchiffon;
+    background-color: lightgray;
+}
+
+ul.korean > li {
+    color: lavender;
+}
+
+.box{
+    border: 5px dotted pink;
+    border-radius: 6px;
+
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+
+    padding-top: 10px;
+
+    text-align: center;
+}
+
+.font {
+    font-family: Tangerine;
+}
+
+.d-inline {
+    display: inline;
+}
+
+.d-block {
+    display: block;
+}
+
+.d-flex {
+    display: flex;
+}
